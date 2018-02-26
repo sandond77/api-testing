@@ -8974,12 +8974,16 @@ table-success, table-info, table-warning, table-danger,
 
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
-#map {
-  height: 800px;
-  width: 800px;
+#goldMap, #silverMap, #bronzeMap, .container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 /* Optional: Makes the sample page fill the window. */
+
 html, body {
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
